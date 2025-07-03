@@ -1,7 +1,0 @@
-docker ps -a
-docker build -t vectorsense/mongodb-proxy .
-docker login
-docker image tag vectorsense/mongodb-proxy vectorsense/mongodb-proxy:0.0.1
-docker push vectorsense/mongodb-proxy:0.0.1
-docker image tag vectorsense/mongodb-proxy:0.0.1 vectorsense/mongodb-proxy:latest
-docker push vectorsense/mongodb-proxy:latest
