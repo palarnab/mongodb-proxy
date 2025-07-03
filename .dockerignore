@@ -1,0 +1,15 @@
+node_modules
+docs
+Dockerfile
+docker-compose.yml
+dockercommands.readme
+jest.config.js
+tests
+LICENSE
+.env
+.env.test
+.dockerignore
+.git
+.gitignore
+.prettierrc
+.nvmrc

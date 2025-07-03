@@ -1,0 +1,11 @@
+services:
+  mongodb-proxy:
+    container_name: mongodb-proxy
+    image: vectorsense/mongodb-proxy:latest
+    ports:
+      - 11001:5000
+    restart: unless-stopped
+    environment:
+      - PORT=5000
+      - MONGO_URI=mongodb://localhost:27017?retryWrites=true&w=majority
+      - ALLOWED_TOKENS=gj09ijj0g40hj90jjj0jj9045445j4j0,nB9SGAzh6sBYkRIRDO1PprR

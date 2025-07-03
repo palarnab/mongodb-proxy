@@ -1,0 +1,24 @@
+{
+  "name": "mongodb-proxy",
+  "version": "1.0.0",
+  "main": "src/server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "npx jest"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "body-parser": "^2.2.0",
+    "express": "^5.1.0",
+    "mongodb": "^6.17.0"
+  },
+  "devDependencies": {
+    "dotenv": "^17.0.1",
+    "jest": "^30.0.4",
+    "mongodb-memory-server": "^10.1.4",
+    "supertest": "^7.1.1"
+  }
+}
