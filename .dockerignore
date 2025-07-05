@@ -2,7 +2,7 @@ node_modules
 docs
 Dockerfile
 docker-compose.yml
-dockercommands.readme
+dockercommands
 jest.config.js
 tests
 LICENSE
